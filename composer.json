@@ -16,7 +16,8 @@
         "phpmd/phpmd": "^2.6",
         "phpstan/phpstan": "^0.11.8",
         "phpunit/phpunit": "^8.2",
-        "squizlabs/php_codesniffer": "^3.4"
+        "squizlabs/php_codesniffer": "^3.4",
+        "vimeo/psalm": "^3.4"
     },
     "autoload": {
         "psr-4": {
@@ -33,7 +34,8 @@
         "lint": [
             "phpcs --standard=PSR12 src",
             "phpmd src text phpmd.xml",
-            "phpstan analyze --no-progress --level=max src"
+            "phpstan analyze --no-progress --level=max src",
+            "psalm --no-progress"
         ]
     },
     "config": {
