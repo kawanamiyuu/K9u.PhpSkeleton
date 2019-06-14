@@ -1,0 +1,13 @@
+{
+    "name": "k9u/php-skeleton",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuu Kawanami",
+            "email": "yuu.kawanami@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
