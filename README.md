@@ -1,5 +1,7 @@
 # K9u.PhpSkeleton
 
+[![badge](https://github.com/kawanamiyuu/K9u.PhpSkeleton/workflows/CI/badge.svg)](https://github.com/kawanamiyuu/K9u.PhpSkeleton/actions?query=workflow%3ACI)
+
 ## How to Initialize project
 
 ```shell
