@@ -11,6 +11,6 @@ class HelloWorldTest extends TestCase
     public function testGetGreeting(): void
     {
         $helloWorld = new HelloWorld("hello");
-        $this->assertSame("hello", $helloWorld->getGreeting());
+        $this->assertSame("hello", $helloWorld->greeting());
     }
 }

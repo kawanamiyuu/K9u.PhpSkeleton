@@ -9,7 +9,7 @@ class HelloWorld
     /**
      * @var string
      */
-    private $greeting;
+    private string $greeting;
 
     /**
      * HelloWorld constructor.
@@ -24,7 +24,7 @@ class HelloWorld
     /**
      * @return string
      */
-    public function getGreeting(): string
+    public function greeting(): string
     {
         return $this->greeting;
     }
