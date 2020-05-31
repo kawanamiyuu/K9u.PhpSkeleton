@@ -13,7 +13,7 @@
         "php": "^7.4"
     },
     "require-dev": {
-        "phpmd/phpmd": "^2.7",
+        "phpmd/phpmd": "^2.8",
         "phpstan/phpstan": "^0.12",
         "phpunit/phpunit": "^9.1",
         "squizlabs/php_codesniffer": "^3.5"
@@ -33,7 +33,7 @@
         "test": "phpdbg -qrr ./vendor/bin/phpunit --coverage-text",
         "lint": [
             "phpcs --standard=PSR12 src",
-            "phpmd src text phpmd.xml",
+            "phpmd src text cleancode,codesize,controversial,design,naming,unusedcode",
             "phpstan analyze --no-progress --level=max src"
         ],
         "fmt": "phpcbf --standard=PSR12 src"
