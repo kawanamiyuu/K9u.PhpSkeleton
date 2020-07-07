@@ -18,7 +18,13 @@ vi ...
 # "project" or "library"
 vi compser.json
 
+# check composer project
+composer validate
+composer install
+composer check
+
 # initialize repository
+rm -f src/HelloWorld.php tests/HelloWorldTest.php
 rm -rf .git
 git init
 git add .
